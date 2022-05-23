@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Main {
+public class primeNumberRange {
 
     static int primeChecker(int n) {
         int a = 0;

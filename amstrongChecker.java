@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.lang.Math;
-// Write a program to check whether a number is Armstrong or n
+// Write a program to check whether a number is Armstrong or not
 // 153 = 1*1*1 + 5*5*5 + 3*3*3
 
 public class Main {

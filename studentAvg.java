@@ -13,14 +13,14 @@ class Student {
     Double avg;
 
     public void showData() {
-        avg = (sub1 + sub2 + sub3 + sub4) / 4;
-        System.out.println("Student's name: " + s_Name);
-        System.out.println("Student's roll: " + s_Roll);
-        System.out.println("Student's marks of subject 1: " + sub1);
-        System.out.println("Student's marks of subject 2: " + sub2);
-        System.out.println("Student's marks of subject 3: " + sub3);
-        System.out.println("Student's marks of subject 4: " + sub4);
-        System.out.println("Student's average marks: " + avg);
+        this.avg = (this.sub1 + this.sub2 + this.sub3 + this.sub4) / 4;
+        System.out.println("Student's name: " + this.s_Name);
+        System.out.println("Student's roll: " + this.s_Roll);
+        System.out.println("Student's marks of subject 1: " + this.sub1);
+        System.out.println("Student's marks of subject 2: " + this.sub2);
+        System.out.println("Student's marks of subject 3: " + this.sub3);
+        System.out.println("Student's marks of subject 4: " + this.sub4);
+        System.out.println("Student's average marks: " + this.avg);
     }
 }
 

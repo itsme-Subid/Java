@@ -3,7 +3,7 @@ import java.util.Random;
 
 // Fully bug free Hand Cricket game.
 // Made by itsme-Subid
-// Special thanks to: Rajeet Kumar Ash for the help in the java-concept.
+// Special thanks to: Rajeet Kumar Ash for helping me to understand the Java Concepts.
 // Thank you to those who helped me in this project.
 // Date: 04-06-2022
 

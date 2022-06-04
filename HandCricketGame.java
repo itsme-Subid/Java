@@ -7,7 +7,11 @@ import java.util.Random;
 // Thank you to those who helped me in this project.
 // Date: 04-06-2022
 
-class User {
+class Input {
+    static Scanner sc = new Scanner(System.in);
+}
+
+class User extends Input{
     public static boolean InputCheck(int userInput, int max) {
         if (userInput < 0 || userInput > max) {
             System.out.println("\nInvalid input. Please try again.\n");
@@ -18,7 +22,6 @@ class User {
 
     public static int toss() {
         Random rand = new Random();
-        Scanner sc = new Scanner(System.in);
         System.out.println("Enter 0(for tail) or 1(for head)");
         int userInput = sc.nextInt(), toss = 0;
         if (InputCheck(userInput, 1)) {
@@ -32,7 +35,6 @@ class User {
 
     public static void bat(int userScore, int pcScore, int cout) {
         Random rand = new Random();
-        Scanner sc = new Scanner(System.in);
         int cond = 1, pcInput = 0, isBatting = 1;
         cout += 1;
         System.out.println("You are batting\n");
@@ -59,7 +61,6 @@ class User {
     public static void bowl(int userScore, int pcScore, int cout) {
         cout += 1;
         Random rand = new Random();
-        Scanner sc = new Scanner(System.in);
         int cond = 1, pcInput = 0, isBatting = 0;
         System.out.println("You are bowling");
         againBowl: while (cond == 1) {
@@ -84,7 +85,6 @@ class User {
 
     public static void userOut(int userScore, int pcScore, int cout) {
         if (cout == 2) {
-            Scanner sc = new Scanner(System.in);
             System.out.println(userScore > pcScore ? "You win!" : userScore == pcScore ? "It's a tie!" : "You lose!");
             System.out.println("Would you like to play again?(0(to exit) or 1(to play))");
             int userPlay = sc.nextInt();
@@ -105,7 +105,6 @@ class User {
 
     public static void pcOut(int userScore, int pcScore, int cout) {
         if (cout == 2) {
-            Scanner sc = new Scanner(System.in);
             System.out.println(userScore > pcScore ? "You win!" : userScore == pcScore ? "It's a tie!" : "You lose!");
             System.out.println("Would you like to play again?(0(to exit) or 1(to play))");
             int userPlay = sc.nextInt();

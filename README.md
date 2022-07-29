@@ -15,7 +15,7 @@ To check that your Jdk tools are correctly installed and available, open a new C
 ```bash
 javac --version
 ```
-If you don't see the expected output or javac is not a recognized command. Make sure you followed the instructions on the [Azul Zulu website](https://www.azul.com/downloads/?package=jdk) to install Jdk.
+> **Note**: If you don't see the expected output or javac is not a recognized command. Make sure you followed the instructions on the [Azul Zulu website](https://www.azul.com/downloads/?package=jdk) to install Jdk.
 
 ### Run Program
 

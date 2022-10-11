@@ -27,7 +27,7 @@ Go to the project directory
 Clone the project
 
 ```bash
-  git clone git@github.com:itsme-Subid/Java-Programming.git .
+  git clone git@github.com:itsme-Subid/Java-Programming.git
 ```
 
 Compile Program
